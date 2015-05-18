@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="http://www.google.com/design/spec/static/css/main.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=RobotoDraft:400,500,700,400italic' rel='stylesheet' type='text/css'>    
+    <title>MI API</title>
+</head>
+
+<body>
+    <div class="header-title">
+      <span class="section-title">MI API</span>
+      <span class="chapter-title">- BÚSQUEDA DE TWEETS</span>
+    </div>
+
+    <div class="header-title2">
+      <span class="chapter-title">Introduzca la palabra a buscar en los últimos tweets: </span>
+    </div>
+    
+    <div class="search">
+    	<div class="group"> 
+		<form action="/buscar" method="POST">
+			<input type="text" name="text">
+		        <input type="submit" name="my-form" class="button buttonBlue" value="Mostrar búsqueda">
+		</form>
+		<form action="/dropsave" method="POST">
+			<input type="text" name="text">
+			<input type="submit" name="save" class="button buttonBlue" value="Guardar búsqueda en Dropbox">
+		</form>
+		<form action="/ttspain">
+			<input type="submit" name="save" class="button buttonBlue" value="Mostrar TT de España">
+		</form>
+        </div>
+    </div>
+
+</body>
+</html>
