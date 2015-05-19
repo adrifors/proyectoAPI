@@ -21,6 +21,15 @@ def dropsave() :
     response = put(client, OUT_FILE)
     return jsonify({'result': True})
 
+#despliegue 1 del menu
+@app.route("/search")
+def search():
+    return render_template('buscar.html')
+
+#despliegue 2 del menu
+@app.route("/save")
+def save():
+    return render_template('guardar.html')
 
 #Busqueda de tweets con un query determinado
 @app.route("/buscar", methods=['POST'])
@@ -41,7 +50,7 @@ def ttspain():
 #Raiz de la app
 @app.route("/")
 def index():
-	return render_template('index.html')
+	return render_template('menu.html')
 
 
 if __name__ == "__main__":

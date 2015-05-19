@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Buscar y mostrar</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='miEstilo.css') }}" type="text/css" charset="utf-8" />
+  </head>
+  <body>
+    <H3>Buscar tweets y mostrar resultados</H3><BR/><BR/>
+    <form action="/buscar" method="POST">
+      Escribe la palabra con la que desea filtrar los tweets:
+      <input type="text" name="text">
+      <input type="submit" name="my-form" class="button buttonBlue" value="Mostrar b&uacute;squeda">
+      <br/>
+    </form>
+</body>
+</html>

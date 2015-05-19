@@ -1,0 +1,66 @@
+#menu {
+ 	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #6FA3FF;
+	padding: 5px 7px;
+	width: 970px;
+	}
+
+body {
+	background: url('../images/API_PAGE_CLOUD_-_crop.png') no-repeat top center;
+	} 
+
+H1 {
+	font-size: 50px;
+	text-align: center;
+	background-color: white;
+	}
+
+H3 {
+	color: blue;
+	}
+
+#menu DD {
+	list-style-type: none;
+	background-color: #5F82BF;
+	margin:0 auto;
+	text-align:center;
+	border-color: #B5C4DF;
+	border-width: 1px 5px;
+	border-style: solid double;
+	}
+
+#menu a { 
+	color: #B5C4DF; 
+	text-decoration:none; 
+	padding: 5px; 
+	display: block;
+	}
+
+#menu DD:hover
+
+#menu DD:hover { 
+	position: relative; 
+	right: -5px; 
+	}
+
+#menu DD:hover a { 
+	color: white; 
+	}
+
+#menu DD.actual
+
+#menu DD.actual {
+	border-color: #D1DCEF;
+	border-style: solid;
+	background-color: #7495CF;
+	}
+
+#menu DD.actual a{
+	color: #EFF5FF;
+	}
+
